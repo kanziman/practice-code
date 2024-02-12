@@ -41,7 +41,9 @@ while True:
                 
                 for y, x in country:
                     a[y][x] = people
-                    
+                
+                [print(i) for i in a]
+                
     if flag == 0:
         print(res)
         break
